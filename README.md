@@ -2,9 +2,9 @@
 
 1. Clone the repo
 2. Build an image of our fastapi app with name *myimage*
-```
-docker build -t myimage .
-```
+... ```
+  docker build -t myimage .
+  ```
 3. Check for the created image 
 ```
 docker images
