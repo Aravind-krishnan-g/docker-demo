@@ -9,7 +9,8 @@ docker build -t myimage .
 ```
 docker run -d --name mycontainer -p 8000:8000 myimage
 ```
-4. Stop the container
+4. Visit [localhost](https://localhost:8000) to check our fastapi app
+5. Stop the container
 ```
 docker stop mycontainer
 ```
