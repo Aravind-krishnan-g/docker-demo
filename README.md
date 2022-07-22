@@ -28,9 +28,9 @@ docker ps -a
 ```
 7. Remove the container
 ```
-docker rm <CONTAINER_ID>
+docker rm mycontainer
 ```
 8. Remove image
 ```
-docker rmi <IMAGE_ID>
+docker rmi myimage
 ```
